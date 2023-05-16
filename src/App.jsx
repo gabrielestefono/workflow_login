@@ -1,4 +1,5 @@
 import logo from './assets/Dark.svg';
+import vector from './assets/Vector.svg';
 import './global.css'
 
 export function App() {
@@ -18,7 +19,7 @@ export function App() {
           <input type="text" name="passe" id="passe" placeholder="********************"/>
         </div>
           <a href="">Mot de passe oublié ?</a>
-          <button type="submit">Se connecter <img src="" alt="" /></button>
+          <button type="submit">Se connecter <img src={vector} alt="" /></button>
         <div className="footer">
           <p>Vous n’avez pas de compte ? <a href="#">Créer un compte</a></p>
         </div>

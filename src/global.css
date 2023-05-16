@@ -47,5 +47,49 @@ form{
 }
 
 .inputContainer label{
-    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 8px;
+}
+
+.inputContainer input, .inputContainer input:focus{
+    padding: 1rem;
+    border-radius: 12px;
+    border: 1px solid #5C73DB;
+    width: 520px;
+    height: 49px;
+    outline: 0;
+    margin-bottom: 12px;
+}
+
+form p, form a{
+    margin-top: 4px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000;
+}
+
+form button{
+    margin-top: 16px;
+    gap: 8px;
+    width: 520px;
+    height: 48px;
+    background: #4763E4;
+    border-radius: 12px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+    border: none;
+}
+
+.footer p{
+    margin-top: 8px;
+}
+
+.footer a{
+    color: rgba(92, 115, 219, 1);
+    text-decoration: underline;
 }
