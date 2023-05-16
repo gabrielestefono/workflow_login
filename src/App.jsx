@@ -1,16 +1,19 @@
+import logo from './assets/Dark.svg';
+import './global.css'
+
 export function App() {
   return (
     <div className="container">
       <header className="header">
-        <img src="" alt="" />
+        <img src={logo} alt="Workflow" />
         <span>Merci d'entrer vos informations de connexion</span>
       </header>
       <form>
-        <div>
-          <label htmlFor="email">email</label>
+        <div className='inputContainer'>
+          <label htmlFor="email">Email</label>
           <input type="text" name="email" id="email" placeholder="johndoe@gmail.com"/>
         </div>
-        <div>
+        <div className='inputContainer'>
           <label htmlFor="passe">Mot de passe</label>
           <input type="text" name="passe" id="passe" placeholder="********************"/>
         </div>
